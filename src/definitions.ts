@@ -1,3 +1,7 @@
+export interface CallNumberResult {
+  message: string;
+}
+
 export interface CallNumberPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  call(options?: { number?: string; bypassAppChooser?: boolean }): Promise<CallNumberResult>;
 }
