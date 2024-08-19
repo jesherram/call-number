@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export interface CallNumberResult {\r\n  message: string;\r\n}\r\n\r\nexport interface CallNumberPlugin {\r\n  call(options?: { number?: string; bypassAppChooser?: boolean }): Promise<CallNumberResult>;\r\n}\r\n"]}

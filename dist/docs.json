@@ -1,0 +1,50 @@
+{
+  "api": {
+    "name": "CallNumberPlugin",
+    "slug": "callnumberplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "call",
+        "signature": "(options?: { number?: string | undefined; bypassAppChooser?: boolean | undefined; } | undefined) => Promise<CallNumberResult>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ number?: string | undefined; bypassAppChooser?: boolean | undefined; } | undefined"
+          }
+        ],
+        "returns": "Promise<CallNumberResult>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "CallNumberResult"
+        ],
+        "slug": "call"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "CallNumberResult",
+      "slug": "callnumberresult",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "message",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
